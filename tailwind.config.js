@@ -15,6 +15,9 @@ module.exports = {
         secondary: '#191917',
         tertiary: '#F0F0F0',
       },
+      gridTemplateRows: {
+        main: 'auto 1fr auto',
+      },
     },
   },
   plugins: [],
