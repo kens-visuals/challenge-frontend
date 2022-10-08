@@ -1,12 +1,15 @@
 export default function Navbar() {
   return (
     <nav className="bg-secondary">
-      <div className="mx-auto flex w-full max-w-2xl items-center justify-between p-4 lg:max-w-6xl">
+      <div className="mx-auto flex w-full max-w-3xl items-center justify-between p-4 lg:max-w-6xl">
         <span className="font-work-sans text-xl font-bold text-primary">
           CoffeeScript
         </span>
 
-        <button type="button">
+        <button
+          type="button"
+          className="focus:outline-dashed focus:outline-tertiary"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

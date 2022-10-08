@@ -3,6 +3,7 @@ import Head from 'next/head';
 // Components
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Main from '../components/Main';
 
 export default function Home() {
   return (
@@ -15,9 +16,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="">
-        <span>body</span>
-      </main>
+      <Main />
 
       <Footer />
     </div>
