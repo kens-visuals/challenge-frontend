@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function UsernameForm({
   username,
   setUsername,
@@ -37,11 +35,13 @@ export default function UsernameForm({
         />
 
         {username && (
-          <Link href="/coffees">
-            <a className="mt-4 w-full rounded-sm bg-secondary p-3 text-center font-work-sans font-bold uppercase tracking-widest text-tertiary">
-              Next
-            </a>
-          </Link>
+          <button
+            type="button"
+            onClick={(e) => handleSubmission(e, username)}
+            className="mt-4 w-full rounded-sm bg-secondary p-3 text-center font-work-sans font-bold uppercase tracking-widest text-tertiary"
+          >
+            Next
+          </button>
         )}
       </form>
     </div>
