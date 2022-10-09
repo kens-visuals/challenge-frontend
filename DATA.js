@@ -26,7 +26,7 @@ export default [
   {
     id: 4,
     price: 5.99,
-    name: 'Frappuccino',
+    name: 'Iced Frappuccino',
     img: '/assets/coffee-5.png',
   },
   {

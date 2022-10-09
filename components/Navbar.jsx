@@ -3,7 +3,7 @@ export default function Navbar() {
     <nav className="bg-secondary">
       <div className="mx-auto flex w-full max-w-3xl items-center justify-between p-4 lg:max-w-6xl">
         <span className="font-work-sans text-xl font-bold text-primary">
-          CoffeeScript
+          Coffee<span className="text-tertiary">Script</span>
         </span>
 
         <button

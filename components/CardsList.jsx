@@ -10,7 +10,7 @@ export default function CardsList() {
   ));
 
   return (
-    <div className="my-28 w-[95%] space-y-4 md:grid md:grid-cols-2 md:space-y-0">
+    <div className="my-10 grid  items-center gap-4 md:grid-cols-2 md:space-y-0 lg:grid-cols-3">
       {cardsListDisplay}
     </div>
   );
