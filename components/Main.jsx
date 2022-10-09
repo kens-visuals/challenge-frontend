@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 // Componentns
 import UsernameForm from './UsernameForm';
+import CardsList from './CardsList';
 
 export default function Main() {
   const [username, setUsername] = useState('');
@@ -17,7 +18,7 @@ export default function Main() {
         />
       )}
 
-      {isSubmitted && <span>Welcome, {username}</span>}
+      {isSubmitted && <CardsList />}
     </main>
   );
 }
