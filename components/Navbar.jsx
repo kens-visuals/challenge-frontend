@@ -1,4 +1,12 @@
+// import { useContext } from 'react';
+
+// import { CartContext } from '../contexts/CartContext';
+
 export default function Navbar() {
+  // const { cart } = useContext(CartContext);
+
+  // console.log(cart);
+
   return (
     <nav className="bg-secondary">
       <div className="mx-auto flex w-full max-w-3xl items-center justify-between p-4 lg:max-w-6xl lg:px-0">
