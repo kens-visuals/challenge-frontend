@@ -1,14 +1,16 @@
-// import { useContext } from 'react';
+import { useState, useContext } from 'react';
 
-// import { CartContext } from '../contexts/CartContext';
+import { CartContext } from '../contexts/CartContext';
+
+import Cart from './Cart';
 
 export default function Navbar() {
-  // const { cart } = useContext(CartContext);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
-  // console.log(cart);
+  const { cart } = useContext(CartContext);
 
   return (
-    <nav className="bg-secondary">
+    <nav className="relative bg-secondary">
       <div className="mx-auto flex w-full max-w-3xl items-center justify-between p-4 lg:max-w-6xl lg:px-0">
         <span className="font-work-sans text-xl font-bold text-primary">
           Coffee<span className="text-tertiary">Script</span>
@@ -16,6 +18,7 @@ export default function Navbar() {
 
         <button
           type="button"
+          onClick={() => setIsCartOpen((prevState) => !prevState)}
           className="focus:outline-dashed focus:outline-tertiary"
         >
           <svg
@@ -34,6 +37,8 @@ export default function Navbar() {
           </svg>
         </button>
       </div>
+
+      {isCartOpen && <Cart />}
     </nav>
   );
 }

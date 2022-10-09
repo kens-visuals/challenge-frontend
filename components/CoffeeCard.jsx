@@ -28,7 +28,7 @@ export default function CoffeeCard({ name, price, img, description }) {
         <button
           type="button"
           onClick={() => handleAddingToCart(name, price)}
-          className="rounded-sm  border border-transparent bg-primary p-2 font-bungee-inline text-base font-bold uppercase text-secondary transition-all duration-300 hover:border hover:border-primary hover:bg-transparent hover:text-primary focus:outline-dashed focus:outline-2 focus:outline-tertiary"
+          className="rounded-sm  border border-transparent bg-primary p-2 font-bungee-inline text-base font-bold uppercase text-secondary transition-colors duration-300 hover:border hover:border-primary hover:bg-transparent hover:text-primary focus:outline-dashed focus:outline-2 focus:outline-tertiary"
         >
           Add to Cart
         </button>
