@@ -9,7 +9,7 @@ export default function Main() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
-    <main className="">
+    <main>
       {!isSubmitted && (
         <UsernameForm
           username={username}

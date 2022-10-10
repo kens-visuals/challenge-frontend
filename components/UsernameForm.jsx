@@ -38,7 +38,7 @@ export default function UsernameForm({
           <button
             type="button"
             onClick={(e) => handleSubmission(e, username)}
-            className="mt-4 w-full rounded-sm bg-secondary p-3 text-center font-work-sans font-bold uppercase tracking-widest text-tertiary"
+            className="mt-4 w-full rounded-sm bg-secondary p-3 text-center font-work-sans font-bold uppercase tracking-widest text-tertiary focus:outline-dashed focus:outline-2 focus:outline-tertiary"
           >
             Next
           </button>

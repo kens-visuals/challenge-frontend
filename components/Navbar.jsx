@@ -1,13 +1,14 @@
 import { useState, useContext } from 'react';
 
+// Context
 import { CartContext } from '../contexts/CartContext';
 
+// Components
 import Cart from './CartContainer';
 
 export default function Navbar() {
-  const [isCartOpen, setIsCartOpen] = useState(false);
-
   const { cart } = useContext(CartContext);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
   return (
     <nav className="relative bg-secondary">
