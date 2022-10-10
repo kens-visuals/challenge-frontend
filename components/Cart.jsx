@@ -41,7 +41,7 @@ export default function Cart() {
         key={nanoid()}
         className="flex w-full items-center justify-between font-work-sans"
       >
-        <span className="inline-block flex-1">{name}:</span>
+        <span className="inline-block flex-1">{name}</span>
 
         <span className="mr-4 inline-block">${price}</span>
 

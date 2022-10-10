@@ -11,7 +11,7 @@ export default function CoffeeCard({ name, price, img, description }) {
     setCart((prevState) => [...prevState, { name, price }]);
 
   return (
-    <div className="flex h-full flex-col justify-between rounded-r-md bg-secondary p-5 py-8 font-work-sans text-tertiary">
+    <div className="flex h-full flex-col justify-between rounded-r-md bg-secondary p-5 py-8 font-work-sans text-tertiary md:rounded-md">
       <div className="flex h-full items-center justify-between">
         <div className="w-2/3">
           <span className="mb-2 inline-block text-3xl">{name}</span>

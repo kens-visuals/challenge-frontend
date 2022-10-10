@@ -31,7 +31,7 @@ export default function UsernameForm({
           name="username"
           placeholder="John"
           onChange={(e) => setUsername(e.target.value)}
-          className="mt-4 w-full rounded-sm bg-secondary/50 p-3 text-tertiary caret-tertiary transition-colors duration-300 placeholder:text-white/40 focus:bg-secondary focus:outline-dashed focus:outline-2 focus:outline-tertiary md:mt-8"
+          className="mt-4 w-full rounded-sm bg-secondary/50 p-3 text-tertiary caret-tertiary transition-colors duration-300 placeholder:text-white/40 focus:bg-secondary focus:outline-dashed focus:outline-2 focus:outline-tertiary md:mt-8 md:text-3xl"
         />
 
         {username && (
