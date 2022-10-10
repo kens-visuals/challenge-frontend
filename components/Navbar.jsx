@@ -2,7 +2,7 @@ import { useState, useContext } from 'react';
 
 import { CartContext } from '../contexts/CartContext';
 
-import Cart from './Cart';
+import Cart from './CartContainer';
 
 export default function Navbar() {
   const [isCartOpen, setIsCartOpen] = useState(false);
