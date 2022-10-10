@@ -16,7 +16,7 @@ export default function Navbar() {
         <button
           type="submit"
           onClick={() => window.location.reload(true)}
-          className="font-work-sans text-xl font-bold text-primary md:text-2xl"
+          className="font-work-sans text-xl font-bold text-primary focus:outline-dashed focus:outline-tertiary md:text-2xl"
         >
           Coffee<span className="text-tertiary">Script</span>
         </button>
