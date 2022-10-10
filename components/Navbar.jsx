@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="relative bg-secondary">
       <div className="mx-auto flex w-full max-w-3xl items-center justify-between p-4 lg:max-w-6xl lg:px-0">
-        <span className="font-work-sans text-xl font-bold text-primary">
+        <span className="font-work-sans text-xl font-bold text-primary md:text-2xl">
           Coffee<span className="text-tertiary">Script</span>
         </span>
 
@@ -28,7 +28,7 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="h-5 w-5 text-tertiary"
+              className="h-5 w-5 text-tertiary md:h-7 md:w-7"
             >
               <path
                 strokeLinecap="round"
@@ -38,7 +38,7 @@ export default function Navbar() {
             </svg>
           </button>
 
-          <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-xs">
+          <span className="absolute -top-2 -right-2 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-xs md:-top-1 md:-right-1">
             {cart.length}
           </span>
         </div>

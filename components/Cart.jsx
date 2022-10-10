@@ -48,16 +48,16 @@ export default function Cart() {
         <button
           type="button"
           aria-label="Add"
-          className="text-primary transition-all duration-300 hover:text-tertiary"
+          className="p-1 text-primary transition-all duration-300 hover:text-tertiary focus:outline-dashed focus:outline-tertiary"
           onClick={() => handleAddingInCart(name, price)}
         >
           +
         </button>
-        <span className="mx-3 inline-block">{count}x</span>
+        <span className="mx-3 inline-block w-4">{count}x</span>
         <button
           type="button"
           aria-label="Remove"
-          className="text-primary transition-all duration-300 hover:text-tertiary"
+          className="p-1 text-primary transition-all duration-300 hover:text-tertiary focus:outline-dashed focus:outline-tertiary"
           onClick={() => handleRemovingFromCart(name)}
         >
           -
